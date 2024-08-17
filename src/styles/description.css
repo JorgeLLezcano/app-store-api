@@ -61,4 +61,18 @@
     color: yellow;
     width: 200px;
   }
+  .prev-button {
+    left: 10px;
+  }
   
+  .next-button {
+    right: 10px;
+  }
+
+  .prev-button, .next-button  {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    z-index: 1;
+  }
